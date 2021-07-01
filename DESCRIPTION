@@ -1,5 +1,5 @@
 Package: conversorR
-Title: Temperature conversion
+Title: Temperature Conversion
 Version: 0.0.0.9000
 Authors@R: 
     person(given = "Marcelo",
