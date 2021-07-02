@@ -29,7 +29,7 @@ cel_to_fah <- function(x){
   fahrenheit = (x * 9/5) + 32
   return(fahrenheit)
 }
-cel_to_fah(30)
+cel_to_fah(30) ## [1] 86
 ```
 
 Converting 86 Fahrenheit degrees to Celsius:
@@ -39,5 +39,5 @@ fah_to_cel <- function(x){
   celsius = (x -32) * 5/9
   return(celsius)
 }
-fah_to_cel(86)
+fah_to_cel(86) ## [1] 30
 ```
