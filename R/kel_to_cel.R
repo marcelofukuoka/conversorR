@@ -1,18 +1,20 @@
 #' Convert Kelvin to Celsius degrees
 #'
-#' kel_to_cel is a function to convert Celsius degrees to Fahrenhit.
-#' Insert temperature in Celsius degrees to get the value in Fahrenheit degrees.
+#' kel_to_cel is a function to convert Kelvin(K) to Celsius degrees
+#' Insert temperature in Kelvin(K) to get the value in Celsius degrees.
 #' For further information access:
 #' https://github.com/marcelofukuoka/conversorR
 #'
-#' @param x of Celsius degrees is a numerical (double)
+#' @param x of Kelvin(K) is a numerical (double)
 #'
-#' @return Fahrenheit degrees as numerical (double)
+#' @return Celsius degrees as numerical (double)
 #'
 #' @export
-#' @examples cel_to_fah(30)
-cel_to_fah <- function(x){
-  fahrenheit = (x * 9/5) + 32
-  return(fahrenheit)
+#' @examples kel_to_cel(300)
+kel_to_cel <- function(x){
+  celsius = x - 273.15
+  return(celsius)
 }
-cel_to_fah(30)
+kel_to_cel(300)
+
+
