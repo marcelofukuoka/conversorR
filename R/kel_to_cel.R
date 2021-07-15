@@ -1,6 +1,6 @@
-#' Convert Celsius degrees to Fahrenheit
+#' Convert Kelvin to Celsius degrees
 #'
-#' cel_to_fah is a function to convert Celsius degrees to Fahrenhit.
+#' kel_to_cel is a function to convert Celsius degrees to Fahrenhit.
 #' Insert temperature in Celsius degrees to get the value in Fahrenheit degrees.
 #' For further information access:
 #' https://github.com/marcelofukuoka/conversorR
