@@ -19,5 +19,5 @@ For further information access:
 https://github.com/marcelofukuoka/conversorR
 }
 \examples{
-cel_to_Kel(26.85)
+cel_to_kel(26.85)
 }
