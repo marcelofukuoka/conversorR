@@ -19,7 +19,13 @@ knitr::opts_chunk$set(
 [![R-CMD-check](https://github.com/marcelofukuoka/conversorR/workflows/R-CMD-check/badge.svg)](https://github.com/marcelofukuoka/conversorR/actions)
 <!-- badges: end -->
 
-The goal of conversorR is to convert temperatures in Celsius degrees to Fahrenheit and vice versa. 
+The goal of conversorR is to convert temperatures:
+* Celsius degrees to Fahrenheit
+* Celsius degrees do Kelvin(K)
+* Fahrenheit to Celsius degrees
+* Fahreneheit degrees do Kelvin(K)
+* Kelvin(K) to Celsius degrees
+* Kelvin(K) to Fahrenheit degrees
 
 ## Installation
 
