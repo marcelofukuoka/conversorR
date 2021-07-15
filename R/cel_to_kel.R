@@ -10,7 +10,7 @@
 #' @return Kelvin(K) as numerical (double)
 #'
 #' @export
-#' @examples cel_to_Kel(26.85)
+#' @examples cel_to_kel(26.85)
 cel_to_kel <- function(x){
   kelvin = x + 273.15
   return(kelvin)
