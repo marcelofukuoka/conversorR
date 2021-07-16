@@ -3,4 +3,6 @@
 export(cel_to_fah)
 export(cel_to_kel)
 export(fah_to_cel)
+export(fah_to_kel)
 export(kel_to_cel)
+export(kel_to_fah)
