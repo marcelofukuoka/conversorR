@@ -6,7 +6,8 @@ Authors@R:
            family = "Fukuoka",
            role = c("aut", "cre"),
            email = "marfuku@gmail.com")
-Description: Functions to convert temperature degrees of Celsius to Fahrentheit, Celsius to Kelvin can be found here.
+Description: Functions to convert temperature degrees of Celsius to Fahrentheit, Celsius to Kelvin, Fahrenheit
+    to Celsius, Fahrenheit do Kelvin, Kelvin to Celsius and Kelvin to Fahrenheit can be found here.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
